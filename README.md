@@ -4,7 +4,6 @@ Static website boilterplate built using Webpack. This boilterplate features foll
 
 - Webpack
 - ES6
-- Bootstrap
 - Font Awesome
 - Sass
 - Live reload using Browsersync
@@ -19,7 +18,7 @@ git clone https://github.com/binoy14/static-website-webpack-boilerplate.git
 
 Run script to start devlopment
 ```sh
-npm run start
+npm run dev
 ```
 
 For distribution folder run the following command and it will create a dist folder which can be placed on a server
