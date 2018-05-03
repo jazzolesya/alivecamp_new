@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1497 228">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fc7552;
+      }
+
+      .cls-2, .cls-4, .cls-7 {
+        fill: #fc7552;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 47px;
+      }
+
+      .cls-3, .cls-7 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-7 {
+        font-size: 19px;
+      }
+
+      .cls-4 {
+        font-family: Helvetica;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #5e5e5e;
+      }
+
+      .cls-6 {
+        font-family: Helvetica, Proxima Nova;
+      }
+    </style>
+  </defs>
+  <g id="Prices" transform="translate(-47 -763)">
+    <line id="Line_1" data-name="Line 1" class="cls-1" x2="1414" transform="translate(82.5 990.5)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-1" y2="157" transform="translate(424.5 833.5)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-1" y2="157" transform="translate(960.5 833.5)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-1" y2="157" transform="translate(1496.5 833.5)"/>
+    <circle id="Ellipse_63" data-name="Ellipse 63" class="cls-2" cx="40" cy="40" r="40" transform="translate(385 794)"/>
+    <circle id="Ellipse_64" data-name="Ellipse 64" class="cls-2" cx="40" cy="40" r="40" transform="translate(920 794)"/>
+    <circle id="Ellipse_65" data-name="Ellipse 65" class="cls-2" cx="40" cy="40" r="40" transform="translate(1457 794)"/>
+    <text id="_1" data-name="1" class="cls-3" transform="translate(425 849)"><tspan x="-13.07" y="0">1</tspan></text>
+    <text id="_2" data-name="2" class="cls-3" transform="translate(961 849)"><tspan x="-13.07" y="0">2</tspan></text>
+    <text id="_3" data-name="3" class="cls-3" transform="translate(1497 849)"><tspan x="-13.07" y="0">3</tspan></text>
+    <text id="При_реєстрації_з_17_по_31_травня_Шацькі_озера:_1590_грн_Коблево:_3190_грн_" data-name="При реєстрації з 17 по 31 травня
+Шацькі озера: 1590 грн
+Коблево: 3190 грн
+" class="cls-4" transform="translate(688 861)"><tspan x="-146.387" y="0">При реєстрації з 17 по 31 травня</tspan><tspan class="cls-5"><tspan x="-103.702" y="30">Шацькі озера: 1590 грн</tspan><tspan x="-81.576" y="60">Коблево: 3190 грн</tspan></tspan><tspan class="cls-6"><tspan x="0" y="90"></tspan></tspan></text>
+    <text id="При_реєстрації_з_1_по_16_травня_Шацькі_озера:_1490_грн_Коблево:_2990_грн_" data-name="При реєстрації з 1 по 16 травня
+Шацькі озера: 1490 грн
+Коблево: 2990 грн
+" class="cls-4" transform="translate(189 861)"><tspan x="-141.104" y="0">При реєстрації з 1 по 16 травня</tspan><tspan class="cls-5"><tspan x="-103.702" y="30">Шацькі озера: 1490 грн</tspan><tspan x="-81.576" y="60">Коблево: 2990 грн</tspan></tspan><tspan class="cls-6"><tspan x="0" y="90"></tspan></tspan></text>
+    <text id="При_реєстрації_з_1_по_16_червня_Шацькі_озера:_1690_грн_Коблево:_3390_грн_" data-name="При реєстрації з 1 по 16 червня
+Шацькі озера: 1690 грн
+Коблево: 3390 грн
+" class="cls-4" transform="translate(1227 861)"><tspan x="-141.466" y="0">При реєстрації з 1 по 16 червня</tspan><tspan class="cls-5"><tspan x="-103.702" y="30">Шацькі озера: 1690 грн</tspan><tspan x="-81.576" y="60">Коблево: 3390 грн</tspan></tspan><tspan class="cls-6"><tspan x="0" y="90"></tspan></tspan></text>
+    <text id="_16_травня" data-name="16 травня" class="cls-7" transform="translate(426 778)"><tspan x="-46.313" y="0">16 травня</tspan></text>
+    <text id="_1_червня" data-name="1 червня" class="cls-7" transform="translate(960 778)"><tspan x="-41.563" y="0">1 червня</tspan></text>
+    <text id="_16_червня" data-name="16 червня" class="cls-7" transform="translate(1497 778)"><tspan x="-46.846" y="0">16 червня</tspan></text>
+  </g>
+</svg>

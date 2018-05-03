@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.362 75.378">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4398d1;
+      }
+
+      .cls-2 {
+        fill: #d1d1d1;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #e0e0e0;
+      }
+
+      .cls-5 {
+        fill: #c7c7c7;
+      }
+    </style>
+  </defs>
+  <g id="AliveCampNew_book" transform="translate(0 -61.793)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-1" width="99.362" height="65.099" transform="translate(0 72.072)"/>
+    <g id="Group_19" data-name="Group 19" transform="translate(6.853 123.466)">
+      <path id="Path_142" data-name="Path 142" class="cls-2" d="M64.433,379.586H35.31v6.852H64.433a17.132,17.132,0,0,1,13.705,6.853A13.706,13.706,0,0,0,64.433,379.586Z" transform="translate(-35.31 -379.586)"/>
+      <path id="Path_143" data-name="Path 143" class="cls-2" d="M256,393.292a17.132,17.132,0,0,1,13.705-6.853h29.123v-6.852H269.705A13.705,13.705,0,0,0,256,393.292Z" transform="translate(-213.171 -379.587)"/>
+    </g>
+    <path id="Path_144" data-name="Path 144" class="cls-3" d="M64.433,61.793H35.31v61.673H64.433a13.706,13.706,0,0,1,13.705,13.705V75.5A13.706,13.706,0,0,0,64.433,61.793Z" transform="translate(-28.457 0)"/>
+    <path id="Path_145" data-name="Path 145" class="cls-4" d="M269.705,61.793A13.706,13.706,0,0,0,256,75.5v61.673a13.706,13.706,0,0,1,13.705-13.705h29.123V61.793Z" transform="translate(-206.319 0)"/>
+    <g id="Group_20" data-name="Group 20" transform="translate(13.705 70.359)">
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-5" width="17.131" height="3.426" transform="translate(0 0)"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-5" width="17.131" height="3.426" transform="translate(10.279 8.566)"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-5" width="6.853" height="3.426" transform="translate(0 8.566)"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-5" width="27.41" height="3.426" transform="translate(0 17.131)"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-5" width="27.41" height="3.426" transform="translate(0 34.263)"/>
+      <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-5" width="27.41" height="3.426" transform="translate(0 42.829)"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-5" width="6.853" height="3.426" transform="translate(20.558 0)"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-5" width="17.131" height="3.426" transform="translate(0 25.697)"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-5" width="6.853" height="3.426" transform="translate(20.558 25.697)"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-5" width="17.131" height="3.426" transform="translate(54.82 42.829)"/>
+      <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-5" width="17.131" height="3.426" transform="translate(44.542 34.263)"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-5" width="6.853" height="3.426" transform="translate(65.099 34.263)"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-5" width="27.41" height="3.426" transform="translate(44.542 25.697)"/>
+      <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-5" width="27.41" height="3.426" transform="translate(44.542 8.566)"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-5" width="6.853" height="3.426" transform="translate(44.542 42.829)"/>
+      <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-5" width="17.131" height="3.426" transform="translate(54.82 17.131)"/>
+      <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-5" width="6.853" height="3.426" transform="translate(44.542 17.131)"/>
+      <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-5" width="10.279" height="3.426" transform="translate(61.673 0)"/>
+      <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-5" width="13.705" height="3.426" transform="translate(44.542 0)"/>
+    </g>
+  </g>
+</svg>

@@ -5,6 +5,9 @@
 		<meta name="description" content="Static website boilerplate using webpack and bootstrap">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha256-NJWeQ+bs82iAeoT5Ktmqbi3NXwxcHlfaVejzJI2dklU=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link rel="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
 
 		<title>Static Website Boilerplate</title>
 
@@ -33,7 +36,606 @@
 		<meta name="theme-color" content="#263238">
 	</head>
 	<body>
-		<h1>AliveCamp starts here...</h1>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha256-C8oQVJ33cKtnkARnmeWp6SDChkU+u7KvsNMFUzkkUzk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <div>
+	    <nav class="navbar navbar-expand-md fixed-top p-nav">
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+      	</button>
+
+	      <div class="collapse navbar-collapse" id="navbarCollapse">
+	      	<div class='container-fluid'>
+	        <ul class="navbar-nav mr-auto mx-auto p-nav__ul">
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3 active" href="#main_anchor">Головна<span class="sr-only">(current)</span></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#about_anchor">Про табір</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#program_anchor">Розпорядок дня</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#activities_anchor">Активності</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#photo_anchor">Фото/Відео</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#registration_anchor">Ціни та реєстрація</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mx-3" href="#contacts_anchor">Контакти</a>
+	          </li>
+	         	<li class="nav-item">
+	            <a class="nav-link p-n-link mr-1 ml-5 mt-1" href="#">
+	            	<i class="fa fa-facebook-f"></i>
+	            </a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link p-n-link mt-1" href="#">
+	            	<i class="fa fa-instagram"></i>
+	            </a>
+	          </li>
+	        </ul> 
+
+	      </div>
+	      </div>
+      	<div class='transparent'> 
+        	<img src="img/Menu-Waves.svg" alt="Logo" class="nav-img" height="">
+        </div>
+	    </nav>
+</div>
+
+    <!-- main -->
+    <a id="main_anchor"></a>
+    <div class='full__m'>
+    	<div class='main_p'>
+    		<div class='main_p__t'>
+	    		<div class='main_p__v main_p__v__1 mr-5'>
+	    			НА ШАЦЬКИХ ОЗЕРАХ
+	    		</div>
+	    		<div class='main_l_p'>
+	    			<img src='img/AliveCampNew_LogoBig.svg'>
+	    			<div class="main__reg">
+	    				<a href="#registration_anchor"><button type='button' class='reg'>ЗАРЕЄСТРУВАТИСЯ</button></a>
+	    			</div>
+	    	  </div>
+	    	  <div class='main_p__v main_p__v__2 ml-5'>
+	    			В КОБЛЕВО НА МОРІ
+	    		</div>
+	    	</div>
+    		<div class='main_p__f'>
+    			<!-- <img src='img/Mask-Group 1.png'> -->
+    			<div class="main__wave">
+					  <svg class="editorial"
+					     xmlns="http://www.w3.org/2000/svg"
+					     xmlns:xlink="http://www.w3.org/1999/xlink"
+					     viewBox="0 24 150 28"
+					     preserveAspectRatio="none">
+						  <defs>
+							  <path id="gentle-wave"
+							  d="M-160 44c30 0 
+							    58-18 88-18s
+							    58 18 88 18 
+							    58-18 88-18 
+							    58 18 88 18
+							    v44h-352z" />
+						  </defs>
+						  <g class="parallax">
+						   <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+						   <use xlink:href="#gentle-wave" x="50" y="3" fill="#3461c1"/>
+						   <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>  
+						  </g>
+						</svg>
+    			</div>
+    			<div class='main_p__p'>ЯК ЦЕ БУЛО?</div>
+    			<div class='main_p__b'>
+    				<img src='img/Play-Button.svg'>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- about -->
+    <a id="about_anchor"></a>
+    <div class='full__a about'>
+    	<div class="container-fluid">
+	    	<div class="row about__r">
+	    		<div class="col-4 about__who">
+	    			<h2>ДЛЯ КОГО?</h2>
+	    			<p class="about__p">Для молоді, яка відчуває себе живою, активною та драйвовою!</p>
+	    		</div>
+	    		<div class="col-4">
+	    			<div class="about__logo">
+	    				<img src='img/AliveCampNew_LogoBig-2.svg'>
+	    				<div class='year'>2018</div>
+	    			</div>
+	    		</div>
+	    		<div class="col-4 about__why">
+	    			<h2>ДЛЯ ЧОГО?</h2>
+	    			<p class="about__p">Для розвитку та відпочинку чотирьох невід'ємних складових людини: духу, душі, тіла, і розуму.</p>
+	    		</div>
+	    	</div>
+    	<div class="row">
+    		<div class='offset-md-2 col-8'>
+    			<div class='about__div'>
+	    			<table class='table about__table'>
+	    				  <thead>
+							    <tr>
+							      <th scope="col" class="about__table__head">№</th>
+							      <th scope="col" class="about__table__head">Заїзд</th>
+							      <th scope="col" class="about__table__head">Дата</th>
+							      <th scope="col" class="about__table__head">Вік</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row" class="about__table__row"><div class='about__table__num-1'>1</div></th>
+							      <td class="about__table__row about__table__pad about__table__col">На морі в Коблево (база відпочинку)</td>
+							      <td class="about__table__row about__table__pad">З 24 червня по 6 липня</td>
+							      <td class="about__table__row about__table__pad">10-14 років</td>
+							    </br>
+							    </tr>
+							    <tr>
+							      <th scope="row"><div class='about__table__num-1'>1</div></th>
+							      <td class="about__table__col about__table__pad">На морі в Коблево (база відпочинку)</td>
+							      <td class="about__table__pad">З 3 по 16 серпня</td>
+							      <td class="about__table__pad">15-29 років</td>
+
+							    </tr>
+							    <tr>
+							      <th scope="row"><div class='about__table__num-2'>3</div></th>
+							      <td class="about__table__pad about__table__col">На Шацьких озерах (кемпінг-містечко)</td>
+							      <td class="about__table__pad">З 20 по 31 серпня</td>
+							      <td class="about__table__pad">14-29 років</td>
+							    </tr>
+							    <tr>
+							      <th scope="row"><div class='about__table__num-2'>4</div></th>
+							      <td class="about__table__pad about__table__col">Відпочинок на морі в Коблево (база відпочинку)
+							      <br> БЕЗ ПРОГРАМИ ТАБОРУ</td>
+							      <td class="about__table__pad">З 10 по 22 червня</td>
+							      <td class="about__table__pad">необмежений</td>
+							    </tr>
+							  </tbody>
+	    			</table>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
+
+    <!-- it is -->
+  <div class='full__is'>
+    <div class="container">
+    	<div class='row'>
+    		<div class="offset-md-4 col-4">
+    			<div class="is__logo">
+    				<img src='img/AliveCampNew_LogoBig-2.svg'>
+    				<div class='year'> - ЦЕ </div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class='row is__row'>
+    		<div class="is__div">
+    			<div class='is__circle is__circle-1'>
+    				<img src='img/AliveCampNew_basketball-player.svg'>
+    			</div>
+    		<div class='is__circle__text'>БАГАТО СПОРТУ</div>
+    		</div>
+    		<div class="is__div">
+    			<div class='is__circle is__circle-2'>
+    				<img src='img/celebration.svg'>
+    			</div>
+    		<div class='is__circle__text'>НЕЗАБУТНІ ВЕЧІРКИ </div>
+    		</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-3'>
+	    			<img src='img/AliveCampNew_hats.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>НОВІ ЗНАЙОМСТВА</div>
+	    	</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-4'>
+	    			<img src='img/AliveCampNew_location.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>СТИЛЬНА ЛОКАЦІЯ</div>
+	    	</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-5'>
+	    			<img src='img/AliveCampNew_star.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>ВЕЧОРИ ПІД ЗОРЯМИ</div>
+	    	</div>
+	    	</div>
+	    	<div class='row is__row'>
+	    		<div class="is__div">
+	    			<div class='is__circle is__circle-6'>
+	    			
+    			</div>
+    			<div class='is__circle__text'>РОЗВИТОК ОСОБИСТОСТІ</div>
+    		</div>
+    		<div class="is__div">
+	    		<div class='is__circle is__circle-7'>
+	    			<img src='img/AliveCampNew_book.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>ДУХОВНЕ ЗРОСТАННЯ</div>
+	    	</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-8'>
+	    			<img src='img/AliveCampNew_Tree.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>ПОВНОЦІННИЙ ВІДПОЧИНОК</div>
+	    	</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-9'>
+	    			<img src='img/AliveCampNew_training.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>КОМАНДНІ ЗМАГАННЯ</div>
+	    	</div>
+	    	<div class="is__div">
+	    		<div class='is__circle is__circle-10'>
+	    			<img src='img/AliveCampNew_cardiogram.svg'>
+	    		</div>
+	    		<div class='is__circle__text'>ЖИТТЯ!</div>
+	    	</div>
+    	</div>
+    </div>
+  </div>
+
+    <!-- program -->
+    <a id="program_anchor"></a>
+    <div class="full__pr">
+    	<div class='program'>
+    		<h3 class="program__h3">В ПРОГРАМІ:</h3>
+    		<p>Сніданок</p>
+    		<p>Час на відпочинок</p>
+				<p>Активності для тіла, духу, душі чи розуму</p>
+    		<p>Обід</p>
+    		<p>Час на відпочинок</p>
+    		<p>Командні ігри, турніри, квести</p>
+    		<p>Вечеря</p>
+    		<p>Вечірня програма</p>
+    		<p>Нічні посиденьки навколо ватри</p>
+    	</div>
+    	<div class='program__img'>
+    		<img src='img/program.png'>
+    	</div>
+    </div>
+
+    <!-- activities -->
+    <a id="activities_anchor"></a>
+    <div class="full__act">
+    	<div class="container-fluid">
+    	<div class='row'>
+    		<div class='col-6'>
+    			<h3 class='act__h3'>АКТИВНОСТІ ДЛЯ ТІЛА</h3>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/Volleyball.svg'>
+    					<div class="act__t">ВОЛЕЙБОЛ</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Small tenis.svg'>
+    					<div class="act__t">НАСТІЛЬНИЙ ТЕНІС</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Badminton.svg'>
+    					<div class="act__t">БАДМІНТОН</div>
+    				</div>
+    			</div>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/Beach.svg'>
+    					<div class="act__t">ФУТБОЛ</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Ball.svg'>
+    					<div class="act__t">СНАЙПЕР</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Box.svg'>
+    					<div class="act__t">УРОКИ БОКСУ</div>
+    				</div>
+    			</div>
+    			<div>
+    			<h3 class='act__h3 act__h3-1'>АКТИВНОСТІ ДЛЯ ДУХУ</h3>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/Prayer.svg'>
+    					<div class="act__t">МОЛИТВА</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Questions.svg'>
+    					<div class="act__t">ДУХОВНІ ПИТАННЯ-ВІДПОВІДІ</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Talks.svg'>
+    					<div class="act__t">БЕСІДИ ПРО ХРИСТИЯНСТВО</div>
+    				</div>
+    			</div>
+    			</div>
+    			</div>
+    		
+    		 <div class='col-6'>
+    		 	<h3 class='act__h3'>АКТИВНОСТІ ДЛЯ РОЗУМУ</h3>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/mafia.svg'>
+    					<div class="act__t">МАФІЯ</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/zoo.svg'>
+    					<div class="act__t">ЗООПАРК</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Dixit.svg'>
+    					<div class="act__t">DIXIT</div>
+    				</div>
+    			</div>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/Lamp.svg'>
+    					<div class="act__t">ЛОГІЧНІ ЗАГАДКИ</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Saboter.svg'>
+    					<div class="act__t">САБОТЕР</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Alias.svg'>
+    					<div class="act__t">ALIAS</div>
+    				</div>
+    			</div>
+    			<div class='act__div'>
+    				<div class='act__img'>
+    					<img src='img/Bang.svg'>
+    					<div class="act__t">BANG</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Uno.svg'>
+    					<div class="act__t">UNO</div>
+    				</div>
+    				<div class='act__img'>
+    					<img src='img/Twins.svg'>
+    					<div class="act__t">TWINS</div>
+    				</div>
+    			</div>
+    			</div>
+    		</div>
+    		</div>
+    	</div>
+    	</div>
+  <!-- registration -->
+    <a id="registration_anchor"></a>
+    <div class="full__reg">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-12">
+    				<div class="reg__title">Реєстрація</div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-3">
+    			<div class="reg__block">
+    				<div class="reg__num reg__num-1">1</div>
+    				<div class="reg__step">Заповніть анкету</div>
+    				<button class="reg__btn">Заповнити</button>
+    			</div>
+    		</div>
+    		<div class="col-1 reg__arr">
+    			<img src="img/AliveCampNew_right-arrow.svg">
+    		</div>
+    		<div class="col-4">
+    			<div class="reg__block">
+	    			<div class="reg__num reg__num-2">2</div>
+	    			<div class="reg__step">Здійсніть передоплату</div>
+	    			<button class="reg__btn reg__btn-2">Показати способи оплати</button>
+	    		</div>
+    		</div>
+    		<div class="col-1 reg__arr">
+    			<img src="img/AliveCampNew_right-arrow.svg">
+    		</div>
+    		<div class="col-3">
+    			<div class="reg__block">
+	    			<div class="reg__num reg__num-3">3</div>
+	    			<div class="reg__step reg__step-3">Відправте чек про передоплату</div>
+	    			<button class="reg__btn">Відправити</button>
+	    		</div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-12 reg__slogan">
+    			Хто швидше реєструється, тому краща ціна дарується!
+    		</div>
+    	</div>
+    	<div class='row'>
+    		<div class="col-11">
+    			<div class="reg__var">
+    				<div class="reg__info">
+    					<p class="reg__info__h">При реєстрації з 1 по 16 травня</p>
+    					<p>Шацькі озера: 1490 грн</p>
+    					<p>Коблево: 2990 грн</p>
+    				</div>
+    				<!-- <div class="reg__info__num reg__info__num-1">16 травня</div> -->
+    				<div class="reg__info__wrapper">
+    					<div class="reg__info__cir">1</div>
+    				</div>
+    				<div class="reg__info">
+    					<p class="reg__info__h">При реєстрації з 17 по 31 травня</p>
+    					<p>Шацькі озера: 1590 грн</p>
+    					<p>Коблево: 3190 грн</p>
+    				</div>
+    				<!-- <div class="reg__info__num reg__info__num-2">31 травня</div> -->
+    				<div class="reg__info__wrapper">
+    					<div class="reg__info__cir">2</div>
+    				</div>
+    				<div class="reg__info">
+    					<p class="reg__info__h">При реєстрації з 1 по 16 червня</p>
+    					<p>Шацькі озера: 1690 грн</p>
+    					<p>Коблево: 3390 грн</p>
+    				</div>
+    				<!-- <div class="reg__info__num reg__info__num-3">16 червня</div> -->
+    				<div class="reg__info__wrapper"> 
+    					<div class="reg__info__cir">3</div>
+    				</div>
+    			</div>
+    			<hr class="reg__hr">
+    		</div>
+    	</div>
+    </div>
+    </div>
+  </div>
+
+    <!-- photo -->
+    <a id="photo_anchor"></a>
+    <div class="full__ph">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-12">
+    				<div class="photo__heading">ФОТО З МИНУЛИХ ЗАЇЗДІВ</div>
+    			</div>
+    		</div>
+
+    		<div class='row'>
+    			<div class='col-3'>	
+    			</div>
+    			<div class="col-6">
+		    		<div class="photo__container">
+		    			<div class="row">
+		    				<div class='col-12 photo__container__col'>
+								  <div class="photo__full">
+								    <img src="img/031.jpg", class="cover-img">
+								  </div>
+								  <div class="photo__full">
+								    <img src="img/032.jpg", class="cover-img">
+								  </div>
+								  <div class="photo__full">
+								    <img src="img/033.jpg", class="cover-img">
+								  </div>		    
+								  <div class="photo__full">
+								    <img src="img/034.jpg", class="cover-img">
+								  </div>
+								  <div class="photo__full">
+								    <img src="img/035.jpg", class="cover-img">
+								  </div>
+								  <div class="photo__full">
+								    <img src="img/036.jpg", class="cover-img">
+								  </div>
+								</div>
+							</div>
+						    
+						  <a class="prev" onclick="plusSlides(-1)">
+						  	<img src="img/ic_keyboard_arrow_left_white_48px.svg">
+						  </a>
+						  <a class="next" onclick="plusSlides(1)">
+						  	<img src="img/ic_keyboard_arrow_right_white_48px.svg">
+						  </a>
+
+						  <div class="row">
+						    <div class="column">
+						      <img class="demo cursor" src="img/031-s190x90.jpg" onclick="currentSlide(1)" alt="The Woods">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="img/032-s190x90.jpg" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="img/033-s190x90.jpg" onclick="currentSlide(3)" alt="Mountains and fjords">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="img/034-s190x90.jpg" onclick="currentSlide(4)" alt="Northern Lights">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="img/035-s190x90.jpg" onclick="currentSlide(5)" alt="Nature and sunrise">
+						    </div>    
+						    <div class="column">
+						      <img class="demo cursor" src="img/036-s190x90.jpg" onclick="currentSlide(6)" alt="Snowy Mountains">
+						    </div>
+						  </div>
+						 </div>
+					 </div>
+					 <div class="col-3"></div>
+					</div>
+				</div>
+			</div>
+
+    
+
+<!-- contacts -->
+<a id="contacts_anchor"></a>
+<footer class="footer">
+	<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<div class="footer__h">КОНТАКТИ</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="footer__d">Організатором AliveCamp є ГО "Благословення", яка тісно співпрацює з Українською Греко-Католицькою Церквою
+та займається просвітницькою, духовною і соціальною працею з молоддю та сім'ями.
+ Виручені кошти з AliveCamp будуть спрямовані на підтримку та реалізацію цієї діяльності.</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6 footer__col">
+			<div class="footer__c">Київстар: 097 220 78 30</div>
+			<div class="footer__c">Lifecell: 063 066 02 93</div>
+		</div>
+		<div class="col-6">
+			<div class="footer__icons">
+				<div class="footer__icon">
+					<i class="fa fa-facebook"></i>
+				</div>
+				<div class="footer__icon-2">
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="footer__mail">info@alivecamp.com.ua</div>
+		</div>
+	</div>
+</div>
+</footer>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("photo__full");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+
+		</script>
+
+
 	</body>
 </html>
