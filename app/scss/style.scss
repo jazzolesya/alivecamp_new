@@ -1,11 +1,11 @@
 @font-face {
   font-family: Proxima Nova Regular;
-  src: url("//fonts/Proxima-Nova-Regular.otf") format("opentype");
+  src: url("/fonts/Proxima-Nova-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: Proxima Nova Condensed Thin;
-  src: url("//fonts/Proxima-Nova-Condensed-Thin.otf") format("opentype");
+  src: url("/fonts/Proxima-Nova-Condensed-Thin.otf") format("opentype");
 }
 
 * {
@@ -430,8 +430,9 @@ body {
 	&__title {
 		margin-top: 100px;
 		text-transform: uppercase;
-		font-size: 62px;
+		font-size: 42px;
 		color: #5A5FFF;
+		letter-spacing: 2px;
 		/*text-shadow: 2px 0 6px #303030;*/
 		text-align: center;
 	}
@@ -442,7 +443,7 @@ body {
 	}
 	&__num {
 		text-align: center;
-		font-size: 52px;
+		font-size: 40px;
 		margin-top: 10px;
 		&-1 {
 			color: #FC7552;
@@ -451,7 +452,7 @@ body {
 			color: #FFE600;
 		}
 		&-3 {
-			color: #08FF00;
+			color: #0c6f72;
 		}
 	}
 	&__step {
@@ -462,8 +463,12 @@ body {
 		&-3 {
 			width: 300px;
 		}
+		&__img img {
+			width: 94%;
+		}
 	}
 	&__btn {
+		cursor: pointer;
 		margin-top: 20px;
 		color: #fff;
 		font-size: 16px;
@@ -471,12 +476,19 @@ body {
 		padding: 10px 35px;
 		border-radius: 30px;
 		letter-spacing: 1px;
-		&:focus {
+		&:focus, &:hover {
 			outline: none;
+			background-color: #FC7552;
+			transition: .2s ease-out;
 		}
 		&-2 {
 			padding: 10px 20px;
 		}
+	}
+	&__condition {
+		text-align: center;
+		font-size: 16px;
+		margin-top: 20px;
 	}
 	&__arr img {
 		height: 150px;
@@ -488,7 +500,8 @@ body {
 		font-size: 20px;
 	}
 	&__var {
-		padding-top: 70px;
+		padding-top: 50px;
+		padding-right: 120px;
 		display: flex;
 		justify-content: space-around;
 		position: relative;
@@ -503,17 +516,10 @@ body {
 			margin-top: 50px;
 		}
 		&__num {
+			color: #FC7552;
+			font-weight: bold;
 			position: absolute;
-			top: 22%;
-			&-1 {
-				left: 30%;
-			}
-			&-2 {
-				left: 60%;
-			}
-			&-3 {
-				left: 90%;
-			}
+			top: 6%;
 		}
 		&__cir {
 			position: absolute;
@@ -537,9 +543,9 @@ body {
 	}
 	&__hr {
 		background-color: #FC7552;
-		width: 88%;
+		width: 80%;
     	text-align: right;
-    	margin: 0 0 0 auto;
+    	margin: 0 120px 0 auto;
 	}
 }
 
@@ -667,8 +673,8 @@ body {
 		margin-top: 55px;
 		margin-left: 30px;
 	}
-	&__icon {
-		font-size: 18px;
+	&__icon a {
+		font-size: 24px;
 		height: 45px;
 		width: 45px;
 		border-radius: 50%;
@@ -678,8 +684,11 @@ body {
 		align-items: center;
 		color: black;
 		margin-right: 20px;
+		&:hover {
+			text-decoration: none;
+		}
 	}
-	&__icon-2 {
+	&__icon-2 a {
 		color: #fff;
 		font-size: 47px
 	}

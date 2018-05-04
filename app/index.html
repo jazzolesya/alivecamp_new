@@ -71,12 +71,12 @@
 	            <a class="nav-link p-n-link mx-3" href="#contacts_anchor">Контакти</a>
 	          </li>
 	         	<li class="nav-item">
-	            <a class="nav-link p-n-link mr-1 ml-5 mt-1" href="#">
+	            <a class="nav-link p-n-link mr-1 ml-5 mt-1" href="https://www.facebook.com/alivecamps" target="_blank">
 	            	<i class="fa fa-facebook-f"></i>
 	            </a>
 	          </li>
 	          <li class="nav-item">
-	            <a class="nav-link p-n-link mt-1" href="#">
+	            <a class="nav-link p-n-link mt-1" href="https://www.instagram.com/alivecamps" target="_blank">
 	            	<i class="fa fa-instagram"></i>
 	            </a>
 	          </li>
@@ -423,7 +423,31 @@
     			<div class="reg__block">
     				<div class="reg__num reg__num-1">1</div>
     				<div class="reg__step">Заповніть анкету</div>
-    				<button class="reg__btn">Заповнити</button>
+    				<button class="reg__btn" data-toggle="modal" data-target="#fillIn">Заповнити</button>
+    				  <!-- The Modal -->
+						  <div class="modal fade" id="fillIn">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						      
+						        <!-- Modal Header -->
+						        <div class="modal-header">
+						          <h4 class="modal-title">Modal Heading</h4>
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        </div>
+						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						          Modal body..
+						        </div>
+						        
+						        <!-- Modal footer -->
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						        </div>
+						        
+						      </div>
+						    </div>
+						  </div>
     			</div>
     		</div>
     		<div class="col-1 reg__arr">
@@ -433,7 +457,35 @@
     			<div class="reg__block">
 	    			<div class="reg__num reg__num-2">2</div>
 	    			<div class="reg__step">Здійсніть передоплату</div>
-	    			<button class="reg__btn reg__btn-2">Показати способи оплати</button>
+	    			<button class="reg__btn reg__btn-2" data-toggle="modal" data-target="#ways">Показати способи оплати</button>
+							<!-- The Modal -->
+						  <div class="modal fade" id="ways">
+						    <div class="modal-dialog">
+						      <div class="modal-content">	
+						        <div class="modal-header">
+						          <div class="modal-title"><b>Необхідно внести 1500 грн передоплати за заїзд на морі в Коблево і/або 750 грн за заїзд на Шацьких Озерах.</b></div>
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        </div>
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						          <p><b>Способи оплати:</b></p>
+											<p>1. Готівкою. Занести кошти у крамницю "Назарет" за адресою: м. Львів, вул. Театральна, 12.</p>
+											<p>2. Безготівково.</p>
+											<p>Розрахунковий рахунок у ПриватБанку: 26004053721315</p>
+											<p>Назва: БЛАГОСЛОВЕННЯ ГО</p>
+											<p>ЄДРПОУ: 42047596</p>
+											<p>МФО: 325321</p>
+											<p>Призначення платежу: Внески на статутну діяльність</p>
+											<p class="reg__step__img"><img src="img/privat.png"></p>
+											<p>&#42; У разі відмови від участі в таборі передоплату можна повернути лише знайшовши іншого учасника на своє місце.</p>
+						        </div>
+						        <!-- Modal footer -->
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрити</button>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
 	    		</div>
     		</div>
     		<div class="col-1 reg__arr">
@@ -442,9 +494,43 @@
     		<div class="col-3">
     			<div class="reg__block">
 	    			<div class="reg__num reg__num-3">3</div>
-	    			<div class="reg__step reg__step-3">Відправте чек про передоплату</div>
-	    			<button class="reg__btn">Відправити</button>
+	    			<div class="reg__step reg__step-3">Підтвердіть передоплату</div>
+	    			<button class="reg__btn" data-toggle="modal" data-target="#sendCheque">Відправити</button>
+	    			  <!-- The Modal -->
+						  <div class="modal fade" id="sendCheque">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						      
+						        <!-- Modal Header -->
+						        <div class="modal-header">
+						          <div class="modal-title"><b>Необхідно надіслати відповідне повідомлення про передоплату на електронну скриньку info@alivecamp.com.ua</b></div>
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        </div>
+						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						          <ul class="px-3">
+						          	<li>Якщо Ви здійснили передоплату ГОТІВКОЮ, то напишіть "Оплата здійснена готівкою хх.хх.2018р. за учасника Прізвище Ім'я".</li>
+						          	<li>Якщо Ви здійснили передоплату БЕЗГОТІВКОВО, то напишіть "Оплата здійснена безготівково хх.хх.2018р о хх.хх год. за учасника Прізвище Ім'я".
+												<b>Важливо:</b> зберігайте свій чек про здійснення передоплати в якості доказу, якщо виникнуть непорозуміння.</li>
+						          </ul>
+						          <p>Після того як Ви відправите дане повідомлення, протягом 3-х робочих днів на вашу електронну адресу прийде підтвердження про успішну реєстрацію в AliveCamp2018 та всі подальші інструкції щодо табору.</p>
+						        </div>
+						        
+						        <!-- Modal footer -->
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрити</button>
+						        </div>
+						        
+						      </div>
+						    </div>
+						  </div>
 	    		</div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-12 reg__condition">
+    			&#42; Реєстрація вважається дійсною після виконання всіх трьох кроків, які подані вище!
     		</div>
     	</div>
     	<div class="row">
@@ -453,33 +539,36 @@
     		</div>
     	</div>
     	<div class='row'>
-    		<div class="col-11">
+    		<div class="col-12">
     			<div class="reg__var">
     				<div class="reg__info">
-    					<p class="reg__info__h">При реєстрації з 1 по 16 травня</p>
+    					<p class="reg__info__h">При реєстрації з 7 по 25 травня</p>
     					<p>Шацькі озера: 1490 грн</p>
-    					<p>Коблево: 2990 грн</p>
+    					<p>Коблево: 3090 грн</p>
     				</div>
-    				<!-- <div class="reg__info__num reg__info__num-1">16 травня</div> -->
+    				
     				<div class="reg__info__wrapper">
+    					<div class="reg__info__num">25 травня</div>
     					<div class="reg__info__cir">1</div>
     				</div>
     				<div class="reg__info">
-    					<p class="reg__info__h">При реєстрації з 17 по 31 травня</p>
+    					<p class="reg__info__h">При реєстрації з 26 травня по 10 червня</p>
     					<p>Шацькі озера: 1590 грн</p>
-    					<p>Коблево: 3190 грн</p>
+    					<p>Коблево: 3290 грн</p>
     				</div>
-    				<!-- <div class="reg__info__num reg__info__num-2">31 травня</div> -->
+    				
     				<div class="reg__info__wrapper">
+    					<div class="reg__info__num">10 червня</div>
     					<div class="reg__info__cir">2</div>
     				</div>
     				<div class="reg__info">
-    					<p class="reg__info__h">При реєстрації з 1 по 16 червня</p>
+    					<p class="reg__info__h">При реєстрації з 10 по 26 червня</p>
     					<p>Шацькі озера: 1690 грн</p>
-    					<p>Коблево: 3390 грн</p>
+    					<p>Коблево: 3490 грн</p>
     				</div>
-    				<!-- <div class="reg__info__num reg__info__num-3">16 червня</div> -->
+    				
     				<div class="reg__info__wrapper"> 
+    					<div class="reg__info__num">26 червня</div>
     					<div class="reg__info__cir">3</div>
     				</div>
     			</div>
@@ -588,10 +677,14 @@
 		<div class="col-6">
 			<div class="footer__icons">
 				<div class="footer__icon">
-					<i class="fa fa-facebook"></i>
+					<a href="https://www.facebook.com/alivecamps" target="_blank">
+						<i class="fa fa-facebook"></i>
+					</a>
 				</div>
 				<div class="footer__icon-2">
-					<i class="fab fa-instagram"></i>
+					<a href="https://www.instagram.com/alivecamps" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
 				</div>
 			</div>
 		</div>
